@@ -1,4 +1,4 @@
-cat <<EOT > README.md
+
 # fanpage-automation
 
 Automated fanpage video distribution system
@@ -10,4 +10,3 @@ Este proyecto automatiza la generación, edición, subida y publicación de vide
 - .github/workflows/: Workflows de GitHub Actions
 - scripts/: Scripts Python de automatización
 - config/: Configuración de prompts y fanpages
-EOT

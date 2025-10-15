@@ -1,1 +1,60 @@
-# Workflow para editar videos
+# Workflow para editar videos#
+#.github/workflows/edit_videos.yml#
+name: Edit Videos
+
+on:
+  schedule:
+    - cron: '30 0,6,12,18 * * *'
+  workflow_dispatch:
+
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Create directories
+        run: |
+          mkdir -p media/GeneratedVideos
+          mkdir -p media/EditedVideos
+          mkdir -p logs
+
+      - name: Download videos from Drive
+        env:
+          GOOGLE_CREDENTIALS: \${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          python scripts/download_from_drive.py
+
+      - name: Edit videos
+        run: |
+          python scripts/batch_edit.py
+
+      - name: Upload edited videos
+        env:
+          GOOGLE_CREDENTIALS: \${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          python scripts/upload_edited_to_drive.py
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: editing-logs
+          path: logs/

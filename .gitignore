@@ -1,23 +1,29 @@
-cat <<EOT > .gitignore
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Env files
+# Credentials (NUNCA subir a GitHub)
 .env
+*.key
+secrets.json
+google_credentials.json
+config/google_credentials.json
 
-# Logs
-logs/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.Python
+*.egg-info/
 
-# Media
-media/
+# Media (videos grandes)
+media/GeneratedVideos/*.mp4
+media/EditedVideos/*.mp4
+logs/*.log
 
-# Mac
+# IDE
+.vscode/
+.idea/
+*.swp
 .DS_Store
-EOT
 
-# Marimo
-marimo/_static/
-marimo/_lsp/
-__marimo__/
+# Node
+node_modules/

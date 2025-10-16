@@ -1,4 +1,4 @@
-# Credentials (NUNCA subir a GitHub)
+# Credentials (NUNCA subir)
 .env
 *.key
 secrets.json
@@ -14,7 +14,7 @@ env/
 .Python
 *.egg-info/
 
-# Media (videos grandes)
+# Media
 media/GeneratedVideos/*.mp4
 media/EditedVideos/*.mp4
 logs/*.log

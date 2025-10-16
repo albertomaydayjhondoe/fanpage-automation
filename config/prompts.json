@@ -1,4 +1,39 @@
 {
-  "FORMAT_A_DRIVE": ["prompt1", "prompt2"],
-  "FORMAT_B_JOKER": ["prompt1"]
+  "FORMAT_A_DRIVE": [
+    "Coche deportivo en autopista nocturna, neón azul brillante, lluvia intensa, gotas en parabrisas, beat trap agresivo drop",
+    "Conducción urbana nocturna, luces ciudad reflejadas en ventanas, silencio tenso explosión beat trap heavy",
+    "Interior auto de lujo, manos en volante, dashboard iluminado, ciudad de fondo, beat trap power",
+    "Parking subterráneo vacío, luces amarillas industriales, sombras dramáticas, confianza total, beat drop épico",
+    "Carretera mojada noche, líneas blancas hipnóticas, velocidad extrema, neón morado oscuro, trap minimalista"
+  ],
+  "FORMAT_B_JOKER": [
+    "Risa psicológica descontrolada, espejo roto reflejando caos, colores dorados oscuros, beat trap power surge explosivo",
+    "Transformación facial dramática, ojos locos intensos, giro cámara 360, beat drop trap épico sincronizado",
+    "Oficina corporativa transformándose en caos visual, papeles volando, liberación total, música trap intensifica progresivamente",
+    "Close-up risa maniática, distorsión visual glitch, colores saturados vibrantes, beat trap agresivo hit fuerte"
+  ],
+  "FORMAT_C_GTA": [
+    "Robo cinematográfico de coche de lujo, explosión perfectamente sincronizada con beat trap, dinero volando caótico",
+    "Lluvia de billetes cayendo lentamente, poder absoluto materializado, estética crimen organizado, beat trap heavy agresivo",
+    "Persecución urbana nocturna adrenalina, giro drift perfecto, beat trap agresivo acelera, tensión máxima visual",
+    "Helicóptero policía persiguiendo, huida nocturna desesperada, beat trap acelera progresivamente, presión extrema"
+  ],
+  "FORMAT_D_ANIME": [
+    "Pelea anime épica estilo Dragon Ball, efectos glow multicolor explosivos, beat trap perfectamente sincronizado, energía pura",
+    "Transformación poder súper saiyan, aura energía dorada intensa, colores explotan violentamente, trap beat power máximo",
+    "Combo ataques rápidos devastadores, cámara lenta dramática, satisfacción visual 10/10, beat trap golpea preciso",
+    "Boss battle climático definitivo, power reveal impactante, música trap escalada dramática épica increíble"
+  ],
+  "FORMAT_E_CYBERPUNK": [
+    "Ciudad futurista neon, colores púrpura azul intensos, rascacielos digitales caóticos, beat trap minimalista construcción lenta",
+    "Hacker trabajando múltiples pantallas, código Matrix corriendo velocidad, matrices digitales complejas, beat trap construye tensión",
+    "Dystopía visual oscura opresiva, tecnología controlando todo visualmente, trap beat agresivo destructivo liberador máximo",
+    "Luces neon reflejadas lluvia ácida, futurismo cyberpunk oscuro, trap beat power hit sincronizado perfecto"
+  ],
+  "FORMAT_F_LIFESTYLE": [
+    "Reloj Rolex dorado brillando close-up detallado, lujo absoluto materializado, beat trap power dominante, símbolo dinero puro",
+    "Botella champagne Dom Perignon, luces club nocturno vibrantes, celebración éxito máximo, trap beat party vibe intenso",
+    "Ferrari rojo Lamborghini amarillo fila perfecta, velocidad pura potencia, ambición materializada visual, beat trap agresivo",
+    "Joyería oro brillante close-up, dinero efectivo contándose rápido, poder reflejado perfectamente, trap beat strong dominante"
+  ]
 }

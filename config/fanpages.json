@@ -1,6 +1,114 @@
 {
   "fanpages": [
-    {"id": 1, "name": "trap.cinema"},
-    ...
+    {
+      "id": 1,
+      "name": "trap.cinema",
+      "display_name": "Trap Cinema",
+      "tiktok": "@trap.cinema",
+      "instagram": "@trap.cinema",
+      "youtube": "@TrapCinema",
+      "email": "trap.cinema.main@gmail.com",
+      "focus": "Movie edits + Dark aesthetic",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "darkrap.edits",
+      "display_name": "Dark Rap Edits",
+      "tiktok": "@darkrap.edits",
+      "instagram": "@darkrap.edits",
+      "youtube": "@DarkRapEdits",
+      "email": "darkrap.edits.main@gmail.com",
+      "focus": "Pure darkness + Aggressive trap",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "cinematic.trap",
+      "display_name": "Cinematic Trap",
+      "tiktok": "@cinematic.trap",
+      "instagram": "@cinematic.trap",
+      "youtube": "@CinematicTrap",
+      "email": "cinematic.trap.main@gmail.com",
+      "focus": "High quality cinema + Trap beats",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "neon.trap",
+      "display_name": "Neon Trap",
+      "tiktok": "@neon.trap",
+      "instagram": "@neon.trap",
+      "youtube": "@NeonTrap",
+      "email": "neon.trap.main@gmail.com",
+      "focus": "Neon aesthetic + Cyberpunk vibes",
+      "active": true
+    },
+    {
+      "id": 5,
+      "name": "beats.cinema",
+      "display_name": "Beats Cinema",
+      "tiktok": "@beats.cinema",
+      "instagram": "@beats.cinema",
+      "youtube": "@BeatsCinema",
+      "email": "beats.cinema.main@gmail.com",
+      "focus": "Cinema meets beats",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "shadow.beats",
+      "display_name": "Shadow Beats",
+      "tiktok": "@shadow.beats",
+      "instagram": "@shadow.beats",
+      "youtube": "@ShadowBeats",
+      "email": "shadow.beats.main@gmail.com",
+      "focus": "Shadow aesthetic + Minimal trap",
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "trapwave.edits",
+      "display_name": "Trapwave Edits",
+      "tiktok": "@trapwave.edits",
+      "instagram": "@trapwave.edits",
+      "youtube": "@TrapwaveEdits",
+      "email": "trapwave.edits.main@gmail.com",
+      "focus": "Gaming + Anime edits",
+      "active": true
+    },
+    {
+      "id": 8,
+      "name": "obsidian.trap",
+      "display_name": "Obsidian Trap",
+      "tiktok": "@obsidian.trap",
+      "instagram": "@obsidian.trap",
+      "youtube": "@ObsidianTrap",
+      "email": "obsidian.trap.main@gmail.com",
+      "focus": "Premium dark aesthetic",
+      "active": true
+    },
+    {
+      "id": 9,
+      "name": "vibes.trap",
+      "display_name": "Vibes Trap",
+      "tiktok": "@vibes.trap",
+      "instagram": "@vibes.trap",
+      "youtube": "@VibesTrap",
+      "email": "vibes.trap.main@gmail.com",
+      "focus": "General trap vibes",
+      "active": true
+    },
+    {
+      "id": 10,
+      "name": "midnight.trap",
+      "display_name": "Midnight Trap",
+      "tiktok": "@midnight.trap",
+      "instagram": "@midnight.trap",
+      "youtube": "@MidnightTrap",
+      "email": "midnight.trap.main@gmail.com",
+      "focus": "Nocturnal aesthetic",
+      "active": true
+    }
   ]
 }

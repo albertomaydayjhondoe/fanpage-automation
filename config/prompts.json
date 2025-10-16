@@ -1,36 +1,4 @@
 {
-  "FORMAT_A_DRIVE": [
-    "Coche en autopista nocturna, neón azul, lluvia, beat trap agresivo",
-    "Conducción urbana noche, luces reflejadas, explosión beat trap",
-    "Ventanilla auto, lluvia, reflejo luces ciudad, música tensa",
-    "Parking subterráneo, luces amarillas, confianza total, beat drop",
-    "Carretera mojada, líneas blancas, velocidad, neón oscuro"
-  ],
-  "FORMAT_B_JOKER": [
-    "Risa psicológica, caos visual, colores dorados, beat trap power",
-    "Transformación facial, ojos locos, giro cámara, beat drop épico",
-    "Oficina corporativa caos, liberación total, trap intensifica",
-    "Close-up risa, distorsión, colores saturados, beat agresivo"
-  ],
-  "FORMAT_C_GTA": [
-    "Robo coche cinematic, explosión sincronizada beat trap",
-    "Dinero cayendo lluvia, poder absoluto, aesthetic trap heavy",
-    "Persecución urbana, giro rápido, beat agresivo, adrenalina",
-    "Helicóptero policía, huida nocturna, beat acelera"
-  ],
-  "FORMAT_D_ANIME": [
-    "Pelea anime épica, efectos glow, beat trap sincronizado",
-    "Transformación poder, aura energía, colores explotan",
-    "Combo ataques, cámara lenta, satisfacción visual, beat golpea"
-  ],
-  "FORMAT_E_CYBERPUNK": [
-    "Neon futuro, colores púrpura azul, ciudad digital, beat minimalista",
-    "Hacker pantalla, código corriendo, beat trap construye",
-    "Dystopía visual, tecnología controlando, beat agresivo"
-  ],
-  "FORMAT_F_LIFESTYLE": [
-    "Reloj Rolex brillando, lujo absoluto, beat trap power",
-    "Champagne, luces club, celebración éxito, trap party",
-    "Ferrari Lamborghini línea, velocidad pura, beat trap"
-  ]
+  "FORMAT_A_DRIVE": ["prompt1", "prompt2"],
+  "FORMAT_B_JOKER": ["prompt1"]
 }
